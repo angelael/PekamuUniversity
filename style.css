@@ -1,0 +1,262 @@
+body{
+    background-color: #f6f7f8;
+    padding: 0px;
+    margin: 0px;
+    max-height: fit-content;
+    
+}
+hr{
+    padding: 0%;
+    margin: 0%;
+    size: 20px;
+    color: #190E4F;
+}
+
+body p, a {
+    font-family: 'Afacad';
+    color:#d2d7df;
+}
+
+header {
+   background-color: #03012c;
+   height: 140px;
+}
+.container{
+    display: inline;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px;
+}
+footer{
+    background-color: #020122;
+    height: 70px;
+    padding: 10px;
+    
+}
+footer p{
+    color: #d2d7df;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+header h1{
+    color: #d2d7df;
+    font-size: 45px;
+}
+
+nav {
+background-color: #190E4F; 
+
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+color: #d2d7df ; 
+font-family: 'Afacad';
+}
+
+.about{
+    padding: 250px;
+    background-color: #190E4F;
+}
+
+.about h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.about p{
+    text-align: center;
+    font-size: 20px;
+    color: #F6F7F8;
+}
+
+
+section h2{
+    color: #F6F7F8;
+    font-size: 65px;
+    text-align: center;
+    margin: 85px;
+}
+
+/* Index page*/
+.home{
+    padding: 94px;
+    background-image: url('img/study-group-african-people\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #03012c;
+}
+
+button{
+background-color:#241f7b;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 22px;
+}
+
+.campus{
+    position: relative;
+    right: 25px;
+    left:0;
+    background-color: #03012c;
+    transition: 1s;
+    font-size: 20px;
+    border: 0px;
+    font-family: 'Afacad';
+    text-decoration: none;
+   border-radius: 50px;
+
+}
+
+.campus:hover{
+    background-color: #190E4F;
+}
+.campus a{
+    text-underline-offset:unset;
+    color: #d2d7df;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.campus a:hover{
+    color: white;
+    
+}
+.pekU {
+    padding: 10px;
+    background-color: #03012c;
+    
+
+}
+
+.pekU p,.bursaries{
+    display: inline-block;
+}
+.pekU h4{
+    font-size: 20px;
+    color: #d2d7df;
+    text-align: left;
+    padding: 0;
+}
+.bursaries{
+    padding-left: 75px;
+    height: 200px;
+}
+.bursaries:hover{
+    box-shadow: white;
+    transition: 4s;
+}
+.pekU a{
+    text-decoration: none;
+    color:#5d56dd;
+    padding: 0;
+    transition: 0.4s;
+}
+.pekU a:hover{
+    color: #F6F7F8;
+}
+.pekU p{
+    padding: 0;
+    color:#F6F7F8;
+    text-align: left;
+}
+/*End of index*/
+
+.admissions{
+padding: 75px;
+
+}
+
+nav ul li {
+display: inline; 
+}
+
+nav ul li a {
+display: inline-block;
+padding: 12px 20px; 
+text-decoration: none;
+color: #F6F7F8;
+font-size: 18px; 
+}
+
+nav ul li a:hover {
+background-color: #241f7b; /* Darker background color on hover */
+}
+nav ul li :active{
+    background-color: #241f7b;
+    animation-duration: unset;
+}
+.courses{
+    padding: 100px;
+    margin: 0;
+background-color: #190E4F;
+}
+
+.courses h4{
+font-size: 30px;
+font-family: 'Afacad';
+color: #F6F7F8;
+
+}
+
+.courses h3{
+color: #d2d7df;
+font-size: 50px;
+font-family: 'Afacad';
+}
+
+.admissions{
+    background-color: #190E4F;
+    
+}
+.admissions h1{
+    color: #d2d7df;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.admissions p{
+    font-family: 'Afacad';
+
+}
+
+.departments{
+    background-color: #03012c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+
+.departments h1{
+    color: #d2d7df;
+    font-size: 20px;
+    text-align: center;
+
+}
+.departments button{
+background-color:#241f7b;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: flex;
+font-size: 13px;
+align-self: center;
+
+}
+.departments h2{
+    color: #F6F7F8;
+}
+
+.departments p{
+font-family: 'Afacad';
+}
