@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #03012c;
     padding: 0px;
@@ -71,15 +73,26 @@ font-family: 'Afacad';
     text-align: center;
 }
 
+.home{
+    height: 500px;
+}
 
 
 .home h2{
     color: #F6F7F8;
-    font-size: clamp(2rem, 5vw + 1rem, 7rem);
+    font-size: 4rem;
     text-align: center;
     margin: 60px;
     font-family: 'Jost';
 }
+
+@media (max-width: 800px){
+    .home h2{
+        font-size: 4rem;
+    }
+}
+
+
 
 /* Index page*/
 .home{
