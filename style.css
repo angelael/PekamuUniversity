@@ -71,11 +71,6 @@ font-family: 'Afacad';
     text-align: center;
 }
 
-.about p{
-    text-align: left;
-    font-size: 20px;
-    color: #F6F7F8;
-}
 
 
 .home h2{
@@ -201,7 +196,7 @@ font-size: 18px;
 }
 
 nav ul li a:hover {
-background-color: #241f7b; /* Darker background color on hover */
+background-color: #241f7b;
 }
 nav ul li :active{
     background-color: #241f7b;
@@ -231,7 +226,3 @@ font-family: 'Afacad';
     
 }
 
-.admissions p{
-    font-family: 'Afacad';
-
-}
