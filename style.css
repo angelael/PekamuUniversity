@@ -80,7 +80,7 @@ font-family: 'Afacad';
 
 .home h2{
     color: #F6F7F8;
-    font-size: 5em;
+    font-size: clamp(2rem, 5vw + 1rem, 7rem);
     text-align: center;
     margin: 60px;
     font-family: 'Jost';
